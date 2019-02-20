@@ -1,0 +1,76 @@
+#logo{
+    position: absolute;
+    float: left;
+    clear: both;
+    z-index: 2; 
+    margin: 2% 0 0 2%;
+    width: 15%;
+}
+.menu-bar-custom{
+    height: 70px; 
+}
+.blockquote-custom{
+    margin: 0;
+}
+
+/*sobreescrevendo o boodstrap, class container para tirar a margem no monitor do pc apenas*/
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+
+@media (min-width: 576px) {
+    .menu-bar-custom{
+        height: 50px; 
+    }
+    .custom-margin-right{
+        margin-right: 0;
+    }
+    .blockquote{
+        height: 120px
+    }
+}
+
+@media (min-width: 768px) {
+    .img-card-custom{
+        margin-top: 90px;
+    }
+    .custom-margin-right{
+        margin-right: 20px;
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+    max-width: 90%;
+    }
+    .img-card-custom{
+        margin-top: 0;
+    }
+    .blockquote{
+        height: 90px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+    max-width: 90%;
+    }
+    .blockquote{
+        height: 80px;
+    }
+}
+@media (min-width: 1700px) {
+    .container {
+    max-width: 90%;
+    }
+    .blockquote{
+        height: auto;
+    }
+}
+}/***********************************************************************************/
+
+.btn-margin-top{
+    margin-top: 10px;
+}
